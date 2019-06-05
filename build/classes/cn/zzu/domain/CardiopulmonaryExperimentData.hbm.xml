@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.zzu.domain.CardiopulmonaryExperimentData" table="cardiopulmonary_experiment_data">
+		<id name="recordID">
+			<generator class="native"/>
+		</id>
+		<property name="userID"/>
+		<property name="day"/>
+		<property name="starttime"/>
+		<property name="rawPath"/>
+		<property name="type"/>
+
+    <property name="duration"/>
+    <property name="cri1"/>
+
+    <property name="cri2"/>
+
+    <property name="cri3"/>
+
+    <property name="rrv1"/>
+
+    <property name="rrv2"/>
+
+    <property name="rrv3"/>
+
+    <property name="hrv1"/>
+
+    <property name="hrv2"/>
+
+    <property name="hrv3"/>
+		
+	</class>
+</hibernate-mapping>

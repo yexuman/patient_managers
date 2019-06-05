@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.zzu.domain.Infocollect2" table="infocollect2">
+		<id name="userID">
+			
+		</id>
+	
+	<property name="pwvright"/>
+
+    <property name="pwvleft"/>
+
+    <property name="abiright"/>
+
+    <property name="abileft"/>
+
+    <property name="abpmstarttime"/>
+
+    <property name="abpmendtime"/>
+
+    <property name="jiuqintime"/>
+
+    <property name="getuptime"/>
+
+    <property name="dongtaix"/>
+
+    <property name="sixpacetime"/>
+
+    <property name="brogpftime"/>
+
+    <property name="heartbloodtime"/>
+
+    <property name="signcpettime"/>
+
+    <property name="commitcpettime"/>
+
+    <property name="sixpaceisdo"/>
+
+    <property name="brogpfisdo"/>
+
+    <property name="heartbloodisdo"/>
+
+    <property name="signcpetisdo"/>
+
+    <property name="commitcpetisdo"/>
+		
+	</class>
+</hibernate-mapping>

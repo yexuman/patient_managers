@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.zzu.domain.Infocollect" table="infocollect">
+		<id name="userID">
+			
+		</id>
+	<property name="rescenternum"/> 
+	<property name="patientnum"/> 
+	<property name="patfirstzm"/> 
+	
+	<property name="sex"/> 
+	<property name="height"/> 
+	<property name="weight"/> 
+	<property name="birth"/> 
+	<property name="hibltime"/> 
+	<property name="rduceblood"/> 
+	<property name="reducebloodmedi"/> 
+	<property name="redoucebloodoth"/> 
+	<property name="heartinfarc"/> 
+	<property name="peripheralartery"/> 
+	<property name="twosugardis"/> 
+	<property name="bloodfat"/> 
+	<property name="highbloodkidney"/> 
+	<property name="temperature"/> 
+	<property name="breath"/> 
+	<property name="heartfre"/> 
+	<property name="bloodpre"/> 
+	<property name="haveexcep"/> 
+	<property name="haveexcepdesc"/> 
+	<property name="xcgsamplecoltime"/> 
+	<property name="hb"/> 
+	<property name="rbc"/> 
+	<property name="plt"/> 
+	<property name="tg"/> 
+	<property name="wbc"/> 
+	<property name="cho"/> 
+	<property name="hdlc"/> 
+	<property name="ldlc"/> 
+	<property name="ast"/> 
+	<property name="dbil"/> 
+	<property name="bun"/> 
+	<property name="k"/> 
+	<property name="alt"/> 
+	<property name="tbil"/> 
+	<property name="ua"/> 
+	<property name="cr"/> 
+	<property name="na"/> 
+	<property name="cl"/> 
+	<property name="crp"/> 
+	<property name="ilsix"/> 
+	<property name="qujia"/> 
+	<property name="xueguan"/> 
+	<property name="glu"/> 
+	<property name="tnf"/> 
+	<property name="shenshangxian"/> 
+	<property name="shensu"/> 
+	<property name="quangut"/> 
+	<property name="hblevel"/> 
+	<property name="rbclevel"/> 
+	<property name="pltlevel"/> 
+	<property name="tglevel"/> 
+	<property name="wbclevel"/> 
+	<property name="cholevel"/> 
+	<property name="hdlclevel"/> 
+	<property name="ldlclevel"/> 
+	<property name="astlevel"/> 
+	<property name="dbillevel"/> 
+	<property name="bunlevel"/> 
+	<property name="klevel"/> 
+	<property name="altlevel"/> 
+	<property name="tbillevel"/> 
+	<property name="ualevel"/> 
+	<property name="crlevel"/> 
+	<property name="nalevel"/> 
+	<property name="cllevel"/> 
+	<property name="crplevel"/> 
+	<property name="ilsixlevel"/> 
+	<property name="qujialevel"/> 
+	<property name="xueguanlevel"/> 
+	<property name="glulevel"/> 
+	<property name="tnflevel"/> 
+	<property name="shenshangxianlevel"/> 
+	<property name="shensulevel"/> 
+	<property name="quangutlevel"/> 
+	<property name="niaosampcoltime"/> 
+	<property name="daobai"/> 
+	<property name="nrbc"/> 
+	<property name="ncr"/> 
+	<property name="daobailevel"/> 
+	<property name="nrbclevel"/> 
+	<property name="ncrlevel"/> 
+	<property name="nwbc"/> 
+	<property name="nwbclevel"/> 
+	<property name="nalb"/> 
+	<property name="nalblevel"/> 
+	<property name="nac"/> 
+	<property name="naclevel"/> 
+	<property name="tcoltime"/> 
+	<property name="twohourxt"/> 
+	<property name="hbaic"/> 
+	<property name="twohourxtlevel"/> 
+	<property name="hbaiclevel"/> 
+	<property name="onetwohearttime"/> 
+	<property name="onetwores"/> 
+	<property name="onetworesdesc"/> 
+	<property name="twofourhearttime"/> 
+	<property name="chaoshearttime"/> 
+	<property name="neipitime"/> 
+	<property name="zhitidtime"/> 
+	<property name="sbpright"/> 
+	<property name="sbpleft"/> 
+	<property name="dbpright"/> 
+	<property name="dbpleft"/> 
+	<property name="ppright"/> 
+	<property name="ppleft"/> 
+	<property name="mapright"/> 
+	<property name="mapleft"/> 
+	<property name="hrright"/> 
+	<property name="hrleft"/> 
+	<property name="pwvright"/>
+		
+	</class>
+</hibernate-mapping>

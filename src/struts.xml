@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="false" />
+
+	<package name="patient" extends="struts-default" namespace="/">
+		
+	
+		<global-results>
+			<result name="msg">/WEB-INF/jsp/msg.jsp</result>	
+		</global-results>
+		
+	  <!-- 配置首页访问的Action -->
+		<action name="index" class="indexAction">
+			<result name="index">/index.jsp</result>
+		</action>
+		
+		
+	    	<!-- 配置Action -->
+	   <action name="patient_*" class="basicDataAction" method="{1}">
+			<result name="patient">/patient.jsp</result>
+			<result name="delSuccess" type="redirectAction">patient_getPatientList.action?page=1</result>
+			<result name="addSuccess" type="redirectAction">patient_getPatientList.action?page=1</result>
+			<result name="updateSucceed" type="redirectAction">patient_getPatientList.action?page=1</result>
+			<result name="showStCaData">/showStCaData.jsp</result>
+			
+			<result name="experimentPage">/experimentPage.jsp</result>
+			<result name="experimentDetailData">/experimentDetailData.jsp</result>
+			<result name="expChartPage">/expChartPage.jsp</result>
+			<result name="expChartPage2">/expChartPage2.jsp</result>
+			<result name="expChartPage3">/expChartPage3.jsp</result>
+			<result name="expChartPage4">/expChartPage4.jsp</result>
+			
+			
+			
+	   </action>
+	   
+		
+	   <action name="info_*" class="infocollectAction" method="{1}">
+			<result name="infoCollectionPage">/infoCollectionPage.jsp</result>
+			<result name="commitSuccess" type="redirectAction">patient_getPatientList.action?page=1</result>
+			<result name="infoPage">/infoPage.jsp</result>
+	   </action>
+	   
+	</package>
+</struts>

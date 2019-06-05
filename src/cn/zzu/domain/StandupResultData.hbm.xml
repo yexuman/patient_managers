@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.zzu.domain.StandupResultData" table="standup_result_data">
+		<id name="recordID">
+						<generator class="native"/>
+			
+		</id>
+		<property name="userID"/>
+		<property name="day"/>
+		<property name="starttime"/>
+		<property name="rawPath"/>
+		
+		<property name="fs"/>
+		<property name="fp"/>
+		<property name="fb"/>
+		<property name="fsc"/>
+
+        <property name="fpc"/>
+        
+        
+		<property name="fbc1"/>
+		<property name="fbc2"/>
+		<property name="duration"/>
+		<property name="experiment"/>
+		<property name="type"/>
+
+ 
+		
+		
+		
+	</class>
+</hibernate-mapping>

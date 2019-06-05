@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+	<class name="cn.zzu.domain.StandupCalibrationData" table="standup_calibration_data">
+		<id name="recordID">
+			<generator class="native"/>
+		</id>
+		<property name="userID"/>
+		<property name="day"/>
+		<property name="starttime"/>
+		<property name="rawPath"/>
+		<property name="type"/>
+		<property name="dbpCuff"/>
+		<property name="sbpCuff"/>
+		
+		
+	</class>
+</hibernate-mapping>
